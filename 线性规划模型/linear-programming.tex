@@ -1,0 +1,37 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{ctex}
+\usepackage{enumerate}
+\usepackage{amsmath}
+
+\title{线性规划模型笔记}
+\author{longlin}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{线性规划模型}
+\subsection{线性规划的矩阵形式}
+\begin{itemize}
+    \item 不等式组条件矩阵化
+    \item 方程组条件矩阵化
+    \item 每个变量自己的取值范围
+    \item 目标函数的向量化
+    \item 求极值
+\end{itemize}
+
+$$
+\min_x \: c^T X \\
+$$
+\begin{equation}
+    s.t. \:
+    \begin{cases}
+        & Ax \leq b \\
+        & A_{eq} \cdot x = b_{eq} \\
+        & lb \leq x \leq ub
+    \end{cases}
+\end{equation}
+
+
+\end{document}
