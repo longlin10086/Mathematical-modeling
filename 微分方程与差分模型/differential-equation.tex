@@ -1,0 +1,49 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{ctex}
+\usepackage{amsmath}
+
+\title{微分方程与差分模型}
+\author{longlin}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{微分方程的求解}
+\subsection{符号解与数值解}
+\begin{itemize}
+    \item 符号解：完整写出解的代数式，强调解的代数性
+    \item 数值解：算出具体数值，不需完完全全精确，满足一定要求即可
+\end{itemize}
+
+\subsection{多元函数常/偏微分方程组}
+\begin{itemize}
+    \item 偏微分方程和初始条件组成的问题叫做初值问题（Cauchy问题）
+    \item 偏微分方程和第一类边界条件组成的问题叫做第一类边值问题（Dirichlet问题）
+    \item 偏微分方程和第二类边界条件组成的问题叫做第二类边值问题（Neumann问题）
+    \item 偏微分方程和第三类边界条件组成的问题叫做第三类边值问题（Robin问题）
+    \item 既有初始条件又有边界条件的问题叫做混合问题
+\end{itemize}
+
+\section{微分方程案例}
+\subsection{人口增长模型}
+\subsubsection{Malthus模型}
+马尔萨斯模型假设增长率永远是个常数r，那么一段时间内增长的个体有
+$$
+x(t + \Delta t) - x(t) = rx(t)\Delta t
+$$
+
+按照微分方程的形式整理：
+$$
+\begin{cases}
+    \dfrac{\textrm{d} x}{\textrm{d} t} = rx \\
+    x(0) = x_0
+\end{cases}
+$$
+
+解得：
+$$
+x(t) = x_0 e^{rt}
+$$
+\end{document}
