@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.11)  9 JUL 2023 18:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.11)  12 JUL 2023 17:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -260,8 +260,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-No file differential-equation.aux.
+) (./differential-equation.aux)
 \openout1 = `differential-equation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -350,11 +349,11 @@ Overfull \hbox (1.7895pt too wide) in paragraph at lines 25--26
 
 ] [2] (./differential-equation.aux) ) 
 Here is how much of TeX's memory you used:
- 6927 strings out of 476778
- 199882 string characters out of 5809503
+ 6935 strings out of 476778
+ 200084 string characters out of 5809503
  1851973 words of memory out of 5000000
- 27024 multiletter control sequences out of 15000+600000
- 518911 words of font info for 77 fonts, out of 8000000 for 9000
+ 27028 multiletter control sequences out of 15000+600000
+ 518927 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,11n,97p,376b,275s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

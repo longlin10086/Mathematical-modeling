@@ -46,4 +46,19 @@ $$
 $$
 x(t) = x_0 e^{rt}
 $$
+
+\subsubsection{Logistic模型}
+现在对模型进行一些修正，假设增长率会随着种群数量增加而衰减，种群最大的一个平衡数量叫K，那么可以得到
+$$
+\begin{cases}
+    \dfrac{\textrm{d} x}{\textrm{d} t} = rx(1 - \dfrac{x}{K}) \\
+    x(0) = x_0
+\end{cases}
+$$
+$$
+\text{解得}
+\quad 
+x(t) = \dfrac{K}{1+\left ( \frac{K}{x_0} - 1 \right ) e^{-rt}}
+$$
+
 \end{document}
